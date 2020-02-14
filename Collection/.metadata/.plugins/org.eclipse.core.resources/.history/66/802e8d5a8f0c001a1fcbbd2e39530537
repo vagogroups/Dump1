@@ -1,0 +1,24 @@
+package pract;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Object obj=new Object();
+TreeMap hs=new TreeMap();
+hs.put(1, "dingi");
+hs.put(2, obj);
+hs.put("Hello", "raja");
+hs.put(null, true);
+hs.put(true, 18);
+hs.put(1, "reta");
+hs.put(3, obj);
+
+System.out.println(hs);
+	}
+
+}

@@ -1,0 +1,27 @@
+package pract;
+
+import java.util.HashMap;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Object obj=new Object();
+HashMap hs=new HashMap();
+hs.put(1, "dingi");
+hs.put(2, obj);
+hs.put("Hello", "raja");
+hs.put(null, true);
+hs.put(true, 18);
+hs.put(1, "reta");
+hs.put(3, obj);
+int k=hs.size();
+System.out.println(hs.get(1));
+System.out.println(hs.get(2));
+System.out.println(hs.get("Hello"));
+System.out.println(hs.get(null));
+System.out.println(hs.get(true));
+System.out.println(hs.get(3));
+	}
+
+}

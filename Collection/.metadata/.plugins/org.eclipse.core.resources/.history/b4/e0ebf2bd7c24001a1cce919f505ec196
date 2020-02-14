@@ -1,0 +1,39 @@
+package pract;
+
+import java.util.Scanner;
+
+class InvalidageException extends Exception
+{
+	InvalidageException(String str)
+	{
+		super(str);
+	}
+}
+
+class test
+{
+	static void status(int age) throws InvalidageException
+	{
+		if(age>20)
+		{
+			System.out.println("no problem");
+		}
+		else
+		{
+			throw new InvalidageException("Problem");
+		}
+	}
+	
+}
+public class Beta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner s=new Scanner(System.in);
+System.out.println("enter your age");
+int i=s.nextInt();
+
+
+	}
+
+}
